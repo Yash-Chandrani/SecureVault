@@ -1,0 +1,45 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Docker
+.docker/
+
+# Kubernetes
+k8s/secrets.yaml
+k8s/*.kubeconfig
+
+# Azure
+.azure/
+*.pem
+*.key
+
+# System
+.DS_Store
+Thumbs.db 
